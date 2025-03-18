@@ -112,9 +112,6 @@ By completing this assignment, you will:
 2️⃣ **Serialized Student Object File**
 3️⃣ **Employee Data File**
 
-📧 **Send your submission to:** `your-email@example.com`
-
-🕒 **Deadline:** DD/MM/YYYY
 
 Good Luck & Happy Coding! 🚀
 
