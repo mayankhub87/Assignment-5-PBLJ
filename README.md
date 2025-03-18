@@ -1,8 +1,6 @@
 # Assignment-5-PBLJ
-ava Programming Assignment 🚀
-This repository contains Java programs that demonstrate the use of autoboxing, serialization, file handling, and efficient data processing and management. The assignment is divided into three levels of difficulty: Easy, Medium, and Hard. 🎯
-
-Easy Level 🟢
+📋 Assignment Questions
+1. Easy Level 🟢
 Problem Statement
 Write a Java program to calculate the sum of a list of integers using autoboxing and unboxing. Include methods to parse strings into their respective wrapper classes (e.g., Integer.parseInt()).
 
@@ -18,7 +16,7 @@ java
 Copy
 Input: List<String> numbers = {"1", "2", "3", "4", "5"};
 Output: Sum = 15
-Medium Level 🟡
+2. Medium Level 🟡
 Problem Statement
 Create a Java program to serialize and deserialize a Student object. The program should:
 
@@ -41,7 +39,7 @@ Copy
 Student Object: id = 101, name = "John Doe", GPA = 3.8
 Serialized to file: student.ser
 Deserialized from file: Student{id=101, name='John Doe', GPA=3.8}
-Hard Level 🔴
+3. Hard Level 🔴
 Problem Statement
 Create a menu-based Java application with the following options:
 
@@ -78,22 +76,28 @@ Employee Details:
 
 Enter your choice: 3
 Exiting the application... 👋
-How to Run the Programs 🛠️
+🛠️ How to Run the Programs
 Clone this repository to your local machine. 📥
 
+bash
+Copy
+git clone <repository-url>
 Navigate to the respective program directory (Easy, Medium, or Hard). 📁
 
+bash
+Copy
+cd <level-folder>
 Compile and run the Java programs using the following commands:
 
 bash
 Copy
 javac ProgramName.java
 java ProgramName
-Submission Guidelines 📄
+📄 Submission Guidelines
 Create a separate folder for each level (Easy, Medium, Hard). 📂
 
 Include the Java source code files (.java) and any necessary resources (e.g., serialized files, employee data files). 📄
 
 Update the README.md file with any additional instructions or notes. 📝
 
-Happy Coding! 🎉👨‍💻👩‍💻
+🎉 Happy Coding!
