@@ -1,103 +1,120 @@
-# Assignment-5-PBLJ
-📋 Assignment Questions
-1. Easy Level 🟢
-Problem Statement
-Write a Java program to calculate the sum of a list of integers using autoboxing and unboxing. Include methods to parse strings into their respective wrapper classes (e.g., Integer.parseInt()).
+# Java Programming Assignment 5
 
-Requirements:
-Use a list of integers and calculate their sum. ➕
+## Overview
+This assignment is designed to test your knowledge of Java concepts, including:
+- **Autoboxing and Unboxing**
+- **Serialization & Deserialization**
+- **File Handling**
+- **Efficient Data Processing & Management**
 
-Demonstrate autoboxing and unboxing. 📦
+You will work on three levels of difficulty: **Easy, Medium, and Hard.** Complete each level step-by-step to strengthen your Java skills.
 
-Parse strings into integers using wrapper class methods. 🔢
+---
 
-Example:
-java
-Copy
-Input: List<String> numbers = {"1", "2", "3", "4", "5"};
-Output: Sum = 15
-2. Medium Level 🟡
-Problem Statement
-Create a Java program to serialize and deserialize a Student object. The program should:
+## 📌 Easy Level: Sum of Integers using Autoboxing & Unboxing
+### 🎯 Task
+Write a Java program to calculate the sum of a list of integers using **Autoboxing and Unboxing**. Implement methods to parse strings into their respective wrapper classes using `Integer.parseInt()`.
 
-Serialize a Student object (containing id, name, and GPA) and save it to a file. 💾
+### 🔹 Steps to Follow
+1. Create an **ArrayList** of integers.
+2. Read a list of numbers from the user as a string.
+3. Convert the input into Integer objects using **autoboxing**.
+4. Compute the sum of the integers using **unboxing**.
+5. Display the result.
 
-Deserialize the object from the file and display the student details. 📄
+### 📄 Sample Output
+```
+Enter numbers separated by spaces: 10 20 30 40 50
+Sum of numbers: 150
+```
 
-Handle FileNotFoundException, IOException, and ClassNotFoundException using exception handling. ⚠️
+---
 
-Requirements:
-Define a Student class with attributes: id, name, and GPA. 🎓
+## 📌 Medium Level: Student Object Serialization & Deserialization
+### 🎯 Task
+Create a **Student** class and implement serialization & deserialization.
 
-Implement serialization and deserialization methods. 🔄
+### 🔹 Steps to Follow
+1. Define a **Student** class with **id, name, and GPA**.
+2. Implement **Serializable** interface.
+3. Create methods to:
+   - Serialize a Student object and save it to a file.
+   - Deserialize the Student object from the file and display its details.
+4. Handle **FileNotFoundException, IOException, and ClassNotFoundException** properly.
 
-Handle exceptions appropriately. 🛠️
+### 📄 Sample Output
+```
+Student details saved successfully!
 
-Example:
-java
-Copy
-Student Object: id = 101, name = "John Doe", GPA = 3.8
-Serialized to file: student.ser
-Deserialized from file: Student{id=101, name='John Doe', GPA=3.8}
-3. Hard Level 🔴
-Problem Statement
-Create a menu-based Java application with the following options:
+Reading from file...
+Student ID: 101
+Student Name: John Doe
+Student GPA: 3.8
+```
 
-Add an Employee: Gather details of the employee (employee name, employee id, designation, and salary) and store it in a file. 📝
+---
 
-Display All: Display all the employee details from the file. 📋
+## 📌 Hard Level: Employee Management System
+### 🎯 Task
+Develop a **menu-based application** with the following options:
+1️⃣ **Add an Employee**
+2️⃣ **Display All Employees**
+3️⃣ **Exit**
 
-Exit: Exit the application. 🚪
+### 🔹 Steps to Follow
+1. Create an **Employee** class with:
+   - Employee ID
+   - Name
+   - Designation
+   - Salary
+2. Implement file handling to **store employee details** persistently.
+3. Provide an interactive **menu-based** system for user input.
+4. Ensure proper **exception handling**.
 
-Requirements:
-Use file handling to store and retrieve employee details. 📂
-
-Implement a menu-driven interface. 🖥️
-
-Ensure the program handles file operations efficiently. ⚡
-
-Example:
-Copy
+### 📄 Sample Output
+```
 Menu:
 1. Add an Employee
-2. Display All
+2. Display All Employees
 3. Exit
 
-Enter your choice: 1
-Enter Employee Name: Jane Doe
-Enter Employee ID: 102
+Choose an option: 1
+Enter Employee ID: 1001
+Enter Employee Name: Alice
 Enter Designation: Software Engineer
-Enter Salary: 75000
-Employee added successfully! ✅
+Enter Salary: 60000
+Employee added successfully!
 
-Enter your choice: 2
-Employee Details:
-1. Name: Jane Doe, ID: 102, Designation: Software Engineer, Salary: 75000
+Menu:
+1. Add an Employee
+2. Display All Employees
+3. Exit
 
-Enter your choice: 3
-Exiting the application... 👋
-🛠️ How to Run the Programs
-Clone this repository to your local machine. 📥
+Choose an option: 2
+Employee ID: 1001, Name: Alice, Designation: Software Engineer, Salary: 60000
+```
 
-bash
-Copy
-git clone <repository-url>
-Navigate to the respective program directory (Easy, Medium, or Hard). 📁
+---
 
-bash
-Copy
-cd <level-folder>
-Compile and run the Java programs using the following commands:
+## 🎯 Expected Outcomes
+By completing this assignment, you will:
+✅ Gain hands-on experience with **Autoboxing and Unboxing**.
+✅ Understand **Serialization & Deserialization** in Java.
+✅ Develop **File Handling** techniques.
+✅ Enhance your **exception handling** skills.
+✅ Build a **real-world menu-based application**.
 
-bash
-Copy
-javac ProgramName.java
-java ProgramName
-📄 Submission Guidelines
-Create a separate folder for each level (Easy, Medium, Hard). 📂
+---
 
-Include the Java source code files (.java) and any necessary resources (e.g., serialized files, employee data files). 📄
+## 📌 Submission Guidelines
+📂 **Submit a ZIP file** containing:
+1️⃣ **Source Code Files (.java)**
+2️⃣ **Serialized Student Object File**
+3️⃣ **Employee Data File**
 
-Update the README.md file with any additional instructions or notes. 📝
+📧 **Send your submission to:** `your-email@example.com`
 
-🎉 Happy Coding!
+🕒 **Deadline:** DD/MM/YYYY
+
+Good Luck & Happy Coding! 🚀
+
